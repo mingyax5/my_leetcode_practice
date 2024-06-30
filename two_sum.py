@@ -1,5 +1,5 @@
 
-# My first leetcode problem
+# Leetcode #1 两数之和
 
 def find_two_sum(nums, target):
     """
