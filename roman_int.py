@@ -1,4 +1,4 @@
-# leetcode #13 roman to integer
+# leetcode #13 罗马数转换整数
 def romanToInt(s:str) -> int:
     dict = {
         "I" : 1,
