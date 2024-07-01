@@ -1,11 +1,11 @@
 
 # Leetcode #1 两数之和
 
-def find_two_sum(nums, target):
-    """
-    :param nums: list of ints 整数数组
-    :param target: int 两数之和
-    :return: list of two ints 两个数的index
-    """
+def twoSum(self, nums: List[int], target: int) -> List[int]:
+    hashtable = dict()
+    for i, num in enumerate(nums):
+        if target - num in hashtable:
+            return [hashtable[target - num], i]
+        hashtable[nums[i]] = i
+    return []
 
-    for index, num in enumerate(nums):
