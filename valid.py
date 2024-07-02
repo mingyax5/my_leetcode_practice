@@ -12,8 +12,8 @@ def isValid(s: str) -> bool:
 print(isValid("(]"))
 '''
 
-def isValid(s:str) -> bool:
-    dict={"(" : ")" , "[" : "]" , "{" : "}"}
+def isValid(self, s:str) -> bool:
+    dict={"(" : ")" , "[" : "]" , "{" : "}" , "?" : "?"}
     stack = ["?"]
     for x in s:
         if x in dict:
