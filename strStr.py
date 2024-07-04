@@ -1,6 +1,4 @@
-
-def strStr(haystack: str, needle: str) -> int:
-    if len(haystack) == 1:
+# leetcode #28 字符串第一个匹配项
         if haystack == needle:
             x = 0
         else: 
